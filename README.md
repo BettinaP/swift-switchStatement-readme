@@ -11,15 +11,15 @@
 * Explain that a switch statement provides an alternative to the if statement which they had just learned to use.
 * Understands that each case is a separate branch of code execution.
 * Understands that every switch statement **must** be exhaustive. This means that every possible value of the type being considered must be matched by one of the switch cases.
-* Explain that it's not practical to write **all** posible cases, where they could provide a default case to match all other possibilities as a catch-all. 
+* Explain that it's not practical to write **all** possible cases, where they could provide a default case to match all other possibilities as a catch-all. 
 
 
 
 ## Switch Goodness
 
-At this point you should feel comfortable with boolean expressions and ````if/else```` conditional clauses.  If you have any confusion about those topics please stop and review them before continuing beause this lesson is about a *more advanced* version of ````if/else````.
+At this point you should feel comfortable with boolean expressions and ````if/else```` conditional clauses.  If you have any confusion about those topics please stop and review them before continuing because this lesson is about a *more advanced* version of ````if/else````.
 
-You may have noticed that when you're chaining multiple ````if/else```` conditions together your code can start to feel a little... *hairy*; that's because while it's *possible* to chain as many ````if/else```` conditions together as you want the construct wasn't really designed for that.
+You may have noticed that when you're chaining multiple ````if/else```` conditions together your code can start to feel a little... *hairy*; that's because while it's *possible* to chain as many ````if/else```` conditions together as you want, but the construct wasn't really designed for that.
 
 The ````Switch```` statement has one purpose which it is exceedingly good at: helping you write clear and correct code when you need to take more than two courses of action based upon the value of a constant, variable, or the returned value of a function.
 
@@ -31,7 +31,7 @@ if sallyDressColor == "yellow" {
 } else if sallyDressColor == "blue" {
 	wearSomethingPurple()
 } else if sallyDressColor == "red" {
-	wearSomethingOrangle() 
+	wearSomethingOrange() 
 } else if sallyDressColor == "green" {
 	wearSomethingBlue()
 } else ...
@@ -140,3 +140,5 @@ But wait, there's still more!
 The ````switch```` statement actually has many more features which are useful as your programs grow more complex.  While we won't cover them here (because you haven't yet had a chance to fully digest what we've just covered and also don't yet have enough context to fully appreciate the use-cases), you can look forward to learning about how the ````switch```` statement can also handle pattern matching and value binding, and especially how it really comes into its own in making stable, clear software when used in conjunction with ````Enums````.
 
 <a href='https://learn.co/lessons/SwitchStatement' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-switchStatement-readme'>Switch Statement </a> on Learn.co and start learning to code for free.</p>
